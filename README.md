@@ -1,13 +1,12 @@
 # Brain_Preprocessing_Pipeline
 
-$ tree
+$ tree .
 .
-├── Normalization module
-│   ├── group-TRAIN_template.nii 
+├── Normalization_module
+│   ├── group-TRAIN_template.nii
 │   ├── normalize.m
 │   └── main.sh
-
-├── Skullstripping module
+├── Skullstripping_module
 │   ├── remove_nan.py
 │   └── skullstripping.sh
 └── README.md
